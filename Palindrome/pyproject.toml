@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "Palindrome"
+version = "0.1.0"
+description = "Palindrome project with different use cases"
+authors = ["syedaromi <141348046+syedaromi@users.noreply.github.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+fastapi = "^0.111.0"
+pandas = "^2.2.2"
+pytest =  "^8.2.2"
+poetry = "^1.8.3"
+toml = "^0.10.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
